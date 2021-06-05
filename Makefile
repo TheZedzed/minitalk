@@ -35,7 +35,7 @@ $(SERVER): $(OBJS2)
 
 clean:
 	@make clean --silent -C ./libft
-	@$(RM) $(OBJS1) $(OBJS2) $(OBJS_B)
+	@$(RM) $(OBJS1) $(OBJS2) $(OBJS1_B) $(OBJS2_B)
 
 fclean: clean
 	@make fclean --silent -C ./libft
